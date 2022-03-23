@@ -1,3 +1,13 @@
+import { Header } from "../components/header";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+
+      <div className="container mx-auto px-4 mt-[50px]">
+        <div>content</div>
+      </div>
+    </>
+  );
 }
